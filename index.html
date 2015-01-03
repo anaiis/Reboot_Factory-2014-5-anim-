@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations | Anaïs Vandrepotte</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <header>
+        <h1>Reboot Factory: Animations</h1>
+    </header>
+    <main>
+       
+            <div id="anim1">
+                <div class="yang3">
+                    <img id="zen" src="image/img.png" />
+                </div>
+                <p>Animation de démarrage de l'application.</p>
+            </div>
+        
+        
+        
+        
+            <div id="anim2">
+                <div id="normal">
+        <div id="yeux">
+        <ul>
+            <li class="yeux1">
+                <img alt="bouche" src="image/oeilg1.png"/>
+            </li>
+            <li class="yeux2">
+                <img alt="bouche" src="image/oeild1.png"/>
+            </li>
+        </ul>
+        </div>
+        <div class="bouche1">
+            <img id=bouche_1 alt="bouche" src="image/bouche1.png"/>
+        </div>
+    </div>
+    <div id="moyen">
+        <div id="yeux">
+        <ul>
+            <li class="yeux1">
+                <img alt="bouche" src="image/oeilg2.png"/>
+            </li>
+            <li class="yeux2">
+                <img alt="bouche" src="image/oeild2.png"/>
+            </li>
+        </ul>
+        </div>
+        <div class="bouche2">
+            <img id=bouche_2 alt="bouche" src="image/bouche2.png"/>
+        </div>
+    </div>
+    <div id="fort">
+        <div id="yeux">
+        <ul>
+            <li class="yeux1">
+                <img alt="oeil_geuche" src="image/oeilg3.png"/>
+            </li>
+            <li class="yeux2">
+                <img alt="oeil_droit" src="image/oeild3.png"/>
+            </li>
+        </ul>
+        </div>
+        <div class="bouche3">
+            <img id=bouche_3 alt="bouche" src="image/bouche3.png"/>
+        </div>
+        <p>Menu où l'utilisateur doit nous donner son niveau de stress pour que l'application le redirige vers certain types d'exercices qui lui permettrons de le maîtriser.</p>
+    </div>
+           </div>        
+                
+            <div id="anim3">
+                <nav>
+        <ul>
+            <li id="unpeu">
+                <a href="#">Un peu</a>
+            </li>
+            <li id="beaucoup">
+                <a href="#">Beaucoup</a>
+            </li>
+            <li id="encolere">
+                <a href="#">En colère</a>
+            </li>
+        </ul>
+    </nav>
+                <p>Même chose que au dessus mais avec des mots à la place des personnages.</p>
+            </div>
+                
+                
+                
+                
+            <div id="anim4">
+           <div class="plus"><a href="#"><img src="image/fleche.png"/>plus</a></div>
+                 <p>Flèche qui permet de signaler à l'utilisateur qu'il y a un menu caché.</p>
+            </div>
+                
+                
+            <div id="anim5">
+           <div class="back"><a href="#"><img src="image/fleche2.png"/>back</a></div>
+                <p>Flèche qui permet de signaler à l'utilisateur qu'il peut revenir en arrière quand il le souhaite.</p>
+            </div>
+       
+        <div id="anim6">
+            <a class="profil">
+                <img src="image/profil.png" alt="profil"/>
+            </a>
+             <p>Pour que l'utilisateur trouve tout de suite son profil.</p>
+        </div>
+        <div id="anim7">
+            <a class="setting" href="#">
+            <img alt="setting" src="image/setting.png"/>
+    </a>
+     <p> </p>
+        </div>
+    </main>
+        <script src="http://anaisvandrepotte.be/img_RBFT/jquery-1.11.2.min.js"></script>
+
+    
+    <script>
+    $(document).ready(function() {
+    $("a.profil").click(function() {
+        $(this).addClass("scale");
+    });
+
+});</script>
+    
+<script>
+    $(document).ready(function() {
+    $("#anim7").click(function() {
+        $(this).addClass("rotate");
+    });
+});</script>
+</body>
+</html>

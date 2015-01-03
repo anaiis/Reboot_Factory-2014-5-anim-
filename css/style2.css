@@ -1,0 +1,57 @@
+main{margin:0 auto; width:600px;}
+
+.ecran{
+    width:320px;
+    height:480px;
+    border:1px solid black;
+    margin:100px;
+    margin-left:100px;
+    list-style: none;
+}
+
+li.ecran:nth-child(1){
+    background-color:#2A2533;
+}
+.yang3{
+            margin:0 auto;
+        margin-top:180px;
+            width:120px;
+        height:120px;
+        }
+        
+   
+   
+.yang3{  
+    
+} 
+         @-webkit-keyframes yang3 {
+    from { -webkit-transform: rotateZ(0deg);    }
+    to   { -webkit-transform: rotateZ(-360deg); }
+  }
+
+  /* all other browsers */
+  @keyframes yang3 {
+    from {
+      -moz-transform: rotateZ(0deg);
+      -ms-transform: rotateZ(0deg);
+      transform: rotateZ(0deg);
+    }
+    to {
+      -moz-transform: rotateZ(-360deg);
+      -ms-transform: rotateZ(-360deg);
+      transform: rotateZ(-360deg);
+    }
+  }
+
+        
+        .yang3 {
+    -webkit-animation-name: yang3;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 3s;
+
+    animation-name: yang3;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
