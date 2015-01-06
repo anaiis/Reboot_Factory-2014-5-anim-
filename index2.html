@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/style2.css"> <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -19,18 +19,156 @@
             <li class="ecran">
                 <nav>
                     <ul>
-                        <li></li>
+                        <li> <div class="back"><a href="#"><img src="image/fleche2.png"/>back</a></div></li>
                         <li></li>
                         <li></li>
                     </ul>
                 </nav>
+                <div id="container">
+                 <div id="normal">
+        <div id="yeux">
+        <ul>
+            <li class="yeux1">
+                <img alt="oeil_gauche" src="image/oeilg1.png"/>
             </li>
-            <li class="ecran"></li>
-            <li class="ecran"></li>
-            <li class="ecran"></li>
-            <li class="ecran"></li>
+            <li class="yeux2">
+                <img alt="oeil_droit" src="image/oeild1.png"/>
+            </li>
+        </ul>
+        </div>
+        <div class="bouche1">
+            <img id=bouche_1 alt="bouche" src="image/bouche1.png"/>
+        </div>
+    </div>
+    <div id="moyen">
+        <div id="yeux">
+        <ul>
+            <li class="yeux1">
+                <img alt="oeil_gauche" src="image/oeilg2.png"/>
+            </li>
+            <li class="yeux2">
+                <img alt="oeil_droit" src="image/oeild2.png"/>
+            </li>
+        </ul>
+        </div>
+        <div class="bouche2">
+            <img id=bouche_2 alt="bouche" src="image/bouche2.png"/>
+        </div>
+    </div>
+    <div id="fort">
+        <div id="yeux">
+        <ul>
+            <li class="yeux1">
+                <img alt="oeil_gauche" src="image/oeilg3.png"/>
+            </li>
+            <li class="yeux2">
+                <img alt="oeil_droit" src="image/oeild3.png"/>
+            </li>
+        </ul>
+        </div>
+        <div class="bouche3">
+            <img id=bouche_3 alt="bouche" src="image/bouche3.png"/>
+        </div>
+                    </div> </div>
+            </li>
+            <li class="ecran">
+                              <nav>
+                    <ul>
+                        <li> <div class="back"><a href="#"><img src="image/fleche2.png"/>back</a></div></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </nav>
+                <div id="container2">
+                   
+        <ul>
+            <li id="unpeu">
+                <a href="#">Un peu</a>
+            </li>
+            <li id="beaucoup">
+                <a href="#">Beaucoup</a>
+            </li>
+            <li id="encolere">
+                <a href="#">En colère</a>
+            </li>
+        </ul>
+   
+                 </div>
+            </li>
+            <li class="ecran">
+            <nav>
+                    <ul>
+                        <li> <div class="back"><a href="#"><img src="image/fleche2.png"/>back</a></div></li>
+                        <li></li>
+                        <li id="menu">
+                        <span></span>
+
+                        
+                        </li>
+                    </ul>
+                </nav>
+                <div id="container3">
+                 <ul>
+                     <li><a href=""><img class="anim"  src="image/profil.png" alt=""/>Profil</a></li>
+                     <li><a  href=""><img class="anim" src="image/setting.png" alt=""/>Paramètres</a></li>
+
+                     <li><a  href=""><img class="anim" src="image/historique.png" alt=""/>Historique</a></li>
+
+                    </ul>
+                 </div>
+            
+           </li>
+            <li class="ecran">
+            
+            <nav>
+                    <ul>
+                        <li> <div class="back"><a href="#"><img src="image/fleche2.png"/>back</a></div></li>
+                        <li></li>
+                        <li id="menu">
+                        <span></span>
+
+                        
+                        </li>
+                    </ul>
+                </nav>
+            <div id="container4">
+                <ul>
+         
+                <li>
+                    <div class="plus">
+                        <a href="#">
+                            <img alt="plus" src="image/fleche.png"/>
+                           
+                        </a>
+                    </div>
+                    <h1>Playlist</h1>
+                    </li>
+                    <li>
+                <div class="plus">
+                        <a href="#">
+                            <img alt="plus" src="image/fleche.png"/>
+                            
+                        </a>
+                    </div>
+                    <h1>Séance par défaut</h1>
+                    </li>
+                </ul>
+                
+            </div>
+            
+            </li>
+                
         </ul>
     </main>
-    <script src=""></script>
+     <script src="http://anaisvandrepotte.be/img_RBFT/jquery-1.11.2.min.js"></script>
+
+ <script>
+    $(document).ready(function() {
+    $(".anim").click(function() {
+        $(this).addClass("scale");
+    });
+
+});</script>
+    
 </body>
 </html>

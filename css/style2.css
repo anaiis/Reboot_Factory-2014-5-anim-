@@ -55,3 +55,381 @@ li.ecran:nth-child(1){
     animation-iteration-count: infinite;
     animation-duration: 3s;
 }
+
+
+
+
+
+li.ecran:nth-child(2){
+    background-color:#2A2533;
+}
+nav{
+width:100%;
+    height:82px;
+}
+.back{
+            background-color:#35313F;
+        position:absolute; margin-left:-120px;
+         width:50px; height:82px;
+        }
+.back img{width:60%;}
+        .back a{
+            display:block;
+           width:40px; height:60px;
+        text-align: center;
+            margin-top:18px;
+            margin-left:10px;
+        color:transparent; overflow: hidden;}
+        .back {
+  -webkit-transition: all 0.35s ease;
+  -moz-transition: all 0.35s ease;
+  -o-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.back img{
+  -webkit-animation: back 0.75s linear;
+  -moz-animation: back 0.75s linear;
+  -o-animation: back 0.75s linear;
+  animation: back 0.75s linear;
+ 
+}
+        @-webkit-keyframes back {
+  0% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: -30px;
+  }
+  50% {
+    margin-left: -52px;
+  }
+  75% {
+    margin-left: -100px;
+  }
+  76% {
+    opacity: 0;
+    margin-left: 100px; 
+  }
+  100% {
+    opacity: 1;
+    margin-left: 0; 
+  }
+}
+
+
+ #normal{
+        margin:0; padding:0;
+    background-color:#0EAFA5;
+    width:100%; text-align: center;
+    height:133px;}
+        #moyen{
+        margin:0; padding:0;
+    background-color:#F1B136;
+    width:100%; text-align: center;
+    height:133px;}
+        #fort{
+        margin:0; padding:0;
+    background-color:#F26262;
+    width:100%; text-align: center;
+    height:133px;}
+        .bouche{margin-top:-25px;  
+      }
+        .bouche img{ 
+            
+            width:40%; 
+
+        }
+.bouche1 img{
+    position:absolute;
+margin-top:65px;
+    margin-left:85px;width:152px;}
+.bouche2 img{
+    position:absolute;
+margin-top:75px;
+    margin-left:80px;width:160px;}
+.bouche3 img{
+    position:absolute;
+margin-top:60px;
+    margin-left:72px;width:180px;}
+        #yeux{
+            text-align: center;
+            padding-top:05px; margin:0 auto; margin-left:-55px;
+            
+        }
+#normal .yeux1{width:20%;padding:2px;margin-left:32px;}
+#normal .yeux2{width:20%;padding:2px;}
+#moyen .yeux1{width:18%;padding:15px; margin-left:32px;margin-top:-12px}
+#moyen .yeux2{width:18%;padding:15px;margin-left:-30px;margin-top:-12px}
+#fort .yeux1{width:18%;padding:15px;margin-left:32px;margin-top:-12px;}
+#fort .yeux2{width:18%;padding:15px;margin-left:-30px;margin-top:-12px}
+        li img{
+            width:100%;
+            
+        }
+        img{
+            display:block;
+        }
+        ul{
+        margin:0; padding:0;list-style: none; margin-left:120px
+        }
+       #container li{ float:left; margin:5px;
+        }
+        @-webkit-keyframes bouche {
+    0% { -webkit-transform: rotateX(0deg);}
+    50% { -webkit-transform: rotateX(360deg);}
+    100% { -webkit-transform: rotateX(0deg);}
+  }
+        @-webkit-keyframes yeux1 {
+    0% { -webkit-transform: rotateZ(0deg);}
+    50% { -webkit-transform: rotateZ(-5deg);}
+    100% { -webkit-transform: rotateZ(0deg);}
+  }
+        @-webkit-keyframes yeux2 {
+    0% { -webkit-transform: rotateZ(0deg);}
+    50% { -webkit-transform: rotateZ(5deg);}
+    100% { -webkit-transform: rotateZ(0deg);}
+  }
+        #bouche_1{
+            -webkit-animation-name: bouche;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 5s;
+ transform-origin: 50% 50%;
+    animation-name: bouche;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+        }
+#bouche_2{
+            -webkit-animation-name: bouche;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 5s;
+ transform-origin: 50% 50%;
+    animation-name: bouche;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+        }
+#bouche_3{
+            -webkit-animation-name: bouche;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 5s;
+ transform-origin: 50% 50%;
+    animation-name: bouche;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+        }
+        li.yeux1{
+        -webkit-animation-name: yeux1;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 2s;
+            transform-origin: 100% 100%;
+    animation-name: yeux1;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+        }
+        li.yeux2{
+        -webkit-animation-name: yeux2;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 2s;
+             transform-origin: 0% 100%;
+    animation-name: yeux2;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+        }
+
+
+li.ecran:nth-child(3){
+    background-color:#2A2533;
+}
+
+   #container2{
+     width:100%;}
+         #container2 ul{
+        margin:0;
+        padding:0;
+            list-style: none;
+        }
+          #container2 li#unpeu{
+            background-color:#13B0A5; width:100%;height:133px;
+        }
+          #container2 li#unpeu a{
+        -webkit-animation-name: animation1;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 2s;
+    animation-name: animation1;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+        }
+           #container2 li#beaucoup{
+            background-color:#F1B136; width:100%;height:133px;
+        }
+           #container2 li#beaucoup a{
+    -webkit-animation-name: animation2;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 2s;
+    animation-name: animation2;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+        }
+           #container2 li#encolere{
+            background-color:#F26262;width:100%;height:133px;
+        }
+        #container2 li#encolere a{
+    -webkit-animation-name: animation3;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 2s;
+    animation-name: animation3;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+        }
+            #container2 li{
+             width:250px;
+             height:120px;
+        }
+        @-webkit-keyframes animation1 {
+
+    0% { -webkit-transform: translate(0,0px);}
+    33.33% { -webkit-transform: translate(0,5px);}
+    75% { -webkit-transform: translate(0,-5px);}
+    100% { -webkit-transform: translate(0,0);}
+  }
+                @-webkit-keyframes animation2 {
+
+    0% { -webkit-transform: translate(0,0px);}
+    33.33% { -webkit-transform: translate(0,20px);}
+    75% { -webkit-transform: translate(0,-20px);}
+    100% { -webkit-transform: translate(0,0);}
+  }
+                @-webkit-keyframes animation3 {
+
+    0% { -webkit-transform: translate(0,0px);}
+    33.33% { -webkit-transform: translate(0,30px);}
+    75% { -webkit-transform: translate(0,-30px);}
+    100% { -webkit-transform: translate(0,0);}
+  }
+    #container2 a{width:250px;
+             height:120px;
+        line-height: 120px;
+        text-align: center;
+        display:block;
+        width:100%;
+    font-family: 'Damion', cursive;
+    font-size:36px;
+    text-decoration:none;
+    color:white;}
+
+
+
+
+
+li.ecran:nth-child(4){
+    background-color:#2A2533;
+}
+
+#container3{
+    width:100%; height:400px;
+    background-image:url(../image/menu.png);
+   background-repeat: no-repeat;
+    margin-left:10px;
+}
+li.ecran:nth-child(4) nav #menu {
+position:absolute;
+ margin-left:150px;
+}
+span{position:absolute;
+background-image:url(../image/menu2.png);width:40px;height:50px;margin-top:20px;background-repeat: no-repeat;
+   
+}
+
+#container3 ul{margin-left:-18px;width:285px;margin-top:-20px;}
+#container3 li{margin-bottom:-55px;}
+#container3 a{ display:inline-block; padding:10px; width:100%; height:70px;
+    line-height: 70px; text-align: center;
+background-color:#64DDCC; margin:20px; margin-top:55px;
+font-family: 'Open Sans', cursive;
+font-size:16px;text-decoration: none; color:white;}
+#container3 img{width:20%;float:left;padding:10px;}
+     .scale{
+        transform: scale(1.1); }
+
+
+#container3 a:active{
+background-color:#00AFA3}
+
+
+li.ecran:nth-child(5){
+    background-color:#2A2533;
+}
+li.ecran:nth-child(5) nav #menu {
+position:absolute;
+ margin-left:150px;
+}
+span{position:absolute;
+background-image:url(../image/menu2.png);width:40px;height:50px;margin-top:20px;background-repeat: no-repeat;
+   
+}
+#container4{
+    width:100%; height:400px;
+ 
+}
+h1{color:white;font-family: 'Open Sans', cursive; 
+font-size:20px;margin-top:70px;margin-left:-70px;}
+#container4 ul{}
+#container4 li{}
+#container4 a{}
+#container4 input{}
+.plus a{ margin-left:120px; 
+            display:block;
+           width:120px; height:70px;margin-bottom: 20px;
+        text-align: center;
+           
+        color:transparent;}
+        .plus {position:absolute; 
+  -webkit-transition: all 0.35s ease;
+  -moz-transition: all 0.35s ease;
+  -o-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.plus img{
+    width:25%;
+  -webkit-animation: plus 0.75s linear;
+  -moz-animation: plus 0.75s linear;
+  -o-animation: plus 0.75s linear;
+  animation: plus 0.75s linear;
+}
+        @-webkit-keyframes plus {
+  0% {
+    margin-top: 0;
+  }
+  25% {
+    margin-top: 15px;
+  }
+  50% {
+    margin-top: 26px;
+  }
+  75% {
+    margin-top: 50px;
+  }
+  76% {
+    opacity: 0;
+    margin-top: -50px; 
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0; 
+  }
+}

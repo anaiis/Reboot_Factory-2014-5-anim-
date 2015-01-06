@@ -388,6 +388,7 @@ margin-top:40px;
          margin-left:100px; width:49.5px; height:82px;
         }
         .back{
+            
         }
         .back a{
             display:block;
@@ -459,39 +460,7 @@ width:50%;
 
 
 
-#anim7{
-margin-top:800px; margin-left:100px; 
-  width:30px;
-        height:30px;
-            padding: 20px;
-               display:block;
-                   -webkit-transform: rotate(-540deg);
--moz-transform: rotate(-360deg);
--o-transform: rotate(-360deg);
--ms-transform: rotate(-360deg);
-transform: rotate(-360deg);
-transition-duration:0.6s;
-            -webkit-animation-direction:ease;
 
-}
-
-           a.setting{
-      
-        }
-       #anim7 img {
- height:30px;
-  width:30px;
-}
-
-.rotate {
--webkit-transform: rotate(0deg);
--moz-transform: rotate(0deg);
--o-transform: rotate(0deg);
--ms-transform: rotate(0deg); 
-transform: rotate(0deg);
-transition-duration:0.6s;
-    -webkit-animation-direction:ease;
-}
 
 
 
